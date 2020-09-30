@@ -16,7 +16,7 @@ class CashRegister
     if @discount == 0
       @total = @total
     else
-     @total -= @total * (@discount / 100.0)
+     "After the discount, the total comes to #{@total -= @total * (@discount / 100.0)}"
     end
   end
   
