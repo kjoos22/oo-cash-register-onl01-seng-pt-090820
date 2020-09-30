@@ -14,7 +14,7 @@ class CashRegister
     if discount == 0
       @total = @total
     else
-     @total = @total + (@total * (1 / discount))
+     @total = @total - (@total * (1 / discount))
     end
   end
   
